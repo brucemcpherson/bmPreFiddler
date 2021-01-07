@@ -1,6 +1,6 @@
 /**
  * some usefule fromts for fiddler
- * this singleton need spreadsheet scopes,whereas fiddler is dependency free
+ * this  needs spreadsheet scopes,whereas fiddler is dependency free
  */
 function PreFiddler () {
   
@@ -13,7 +13,7 @@ function PreFiddler () {
     const getSheet = ({ id, sheetName, createIfMissing=false}) => {
       const ss = getss ({id})
       let sheet = ss.getSheetByName(sheetName)
-      if (!sheet) {
+      if (!sheet && createIfMissing) {
         sheet = ss.insertSheet(sheetName)
       }
       return sheet
