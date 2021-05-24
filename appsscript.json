@@ -7,6 +7,12 @@
         "version": "4",
         "libraryId": "13EWG4-lPrEf34itxQhAQ7b9JEbmCBfO8uE4Mhr99CHi3Pw65oxXtq-rU",
         "developmentMode": false
+      },
+      {
+        "userSymbol": "bmLibraryTracking",
+        "version": "0",
+        "libraryId": "1GIpX-loeYv2swfT2mcYCUvduAXtoYdzenzIYXt4M_1YLmlN7eMrO1h_P",
+        "developmentMode": true
       }
     ]
   },
