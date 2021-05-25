@@ -1,5 +1,5 @@
 # Google Apps Script Project: bmPreFiddler
-This repo (bmPreFiddler) was automatically updated on 5/24/2021, 12:13:24 PM by GasGit
+This repo (bmPreFiddler) was automatically updated on 5/25/2021, 5:52:58 PM by GasGit
 
 For more information on gasgit, see the [desktop liberation site](https://ramblings.mcpher.com/drive-sdk-and-github/migrategasgit/ "desktop liberation")
 
@@ -17,16 +17,17 @@ The shared link for [bmPreFiddler is here](https://script.google.com/d/13JUFGY18
 --- | --- 
 appsscript| json
 Code| server_js
+Trackmyself| server_js
 ### Directly referenced libraries
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
-bmFiddler| bmFiddler|13EWG4-lPrEf34itxQhAQ7b9JEbmCBfO8uE4Mhr99CHi3Pw65oxXtq-rU|4|no|[here](libraries/bmFiddler "library source")
-bmLibraryTracking| bmLibraryTracking|1GIpX-loeYv2swfT2mcYCUvduAXtoYdzenzIYXt4M_1YLmlN7eMrO1h_P|0|no|no
+bmLibraryTracking| bmLibraryTracking|1GIpX-loeYv2swfT2mcYCUvduAXtoYdzenzIYXt4M_1YLmlN7eMrO1h_P|1|no|[here](libraries/bmLibraryTracking "library source")
+bmFiddler| bmFiddler|13EWG4-lPrEf34itxQhAQ7b9JEbmCBfO8uE4Mhr99CHi3Pw65oxXtq-rU|8|no|[here](libraries/bmFiddler "library source")
 ### All dependencies and sub dependencies
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
-bmFiddler| bmFiddler|13EWG4-lPrEf34itxQhAQ7b9JEbmCBfO8uE4Mhr99CHi3Pw65oxXtq-rU|4|no|[here](libraries/bmFiddler "library source")
-bmLibraryTracking| bmLibraryTracking|1GIpX-loeYv2swfT2mcYCUvduAXtoYdzenzIYXt4M_1YLmlN7eMrO1h_P|0|no|no
+bmLibraryTracking| bmLibraryTracking|1GIpX-loeYv2swfT2mcYCUvduAXtoYdzenzIYXt4M_1YLmlN7eMrO1h_P|1|no|[here](libraries/bmLibraryTracking "library source")
+bmFiddler| bmFiddler|13EWG4-lPrEf34itxQhAQ7b9JEbmCBfO8uE4Mhr99CHi3Pw65oxXtq-rU|8|no|[here](libraries/bmFiddler "library source")
 ### Enabled Google Services
 no libraries discovered
 ### Scopes required
