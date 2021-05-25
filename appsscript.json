@@ -1,20 +1,15 @@
 {
   "timeZone": "America/New_York",
   "dependencies": {
-    "libraries": [
-      {
-        "userSymbol": "bmFiddler",
-        "version": "4",
-        "libraryId": "13EWG4-lPrEf34itxQhAQ7b9JEbmCBfO8uE4Mhr99CHi3Pw65oxXtq-rU",
-        "developmentMode": false
-      },
-      {
-        "userSymbol": "bmLibraryTracking",
-        "version": "0",
-        "libraryId": "1GIpX-loeYv2swfT2mcYCUvduAXtoYdzenzIYXt4M_1YLmlN7eMrO1h_P",
-        "developmentMode": true
-      }
-    ]
+    "libraries": [{
+      "userSymbol": "bmLibraryTracking",
+      "libraryId": "1GIpX-loeYv2swfT2mcYCUvduAXtoYdzenzIYXt4M_1YLmlN7eMrO1h_P",
+      "version": "1"
+    }, {
+      "userSymbol": "bmFiddler",
+      "libraryId": "13EWG4-lPrEf34itxQhAQ7b9JEbmCBfO8uE4Mhr99CHi3Pw65oxXtq-rU",
+      "version": "8"
+    }]
   },
   "exceptionLogging": "STACKDRIVER",
   "runtimeVersion": "V8"
