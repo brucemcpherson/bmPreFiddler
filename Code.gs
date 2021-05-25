@@ -4,20 +4,13 @@
  */
 function PreFiddler() {
 
-  const trackingOptions = {
-    name: 'bmPreFiddler',
-    version: '5',
-    userStore: PropertiesService.getUserProperties(),
-    scriptStore: PropertiesService.getScriptProperties()
-  }
-  bmLibraryTracking.Track.stamp(trackingOptions)
-
   const getss = ({ id }) => {
     return id ? SpreadsheetApp.openById(id) : SpreadsheetApp.getActiveSpreadsheet()
   }
 
   // open a sheet
   const getSheet = ({ id, sheetName, createIfMissing = false }) => {
+
     const ss = getss({ id })
     let sheet = ss.getSheetByName(sheetName)
     if (!sheet && createIfMissing) {
@@ -37,16 +30,4 @@ function PreFiddler() {
     getss
   }
 
-}
-
-const trackreport = () => {
-  const track = bmLibraryTracking.Track
-  const trackingOptions = {
-    name: 'bmPreFiddler',
-    version: '5',
-    userStore: PropertiesService.getUserProperties(),
-    scriptStore: PropertiesService.getScriptProperties()
-  }
-  console.log(track.userReport(trackingOptions))
-  console.log(track.scriptReport(trackingOptions))
 }
