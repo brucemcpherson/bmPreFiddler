@@ -27,7 +27,8 @@ function PreFiddler() {
   return {
     getFiddler,
     getSheet,
-    getss
+    getss,
+    Fiddler: bmFiddler.Fiddler
   }
 
 }
