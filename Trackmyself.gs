@@ -13,7 +13,7 @@ var Trackmyself = ((trackingOptions) => {
   
 })({
   name: 'bmPreFiddler',
-  version: '18',
+  version: '23',
   failSilently: false
 })
   
