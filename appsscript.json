@@ -1,16 +1,19 @@
 {
   "timeZone": "America/New_York",
-  "dependencies": {
-    "libraries": [{
-      "userSymbol": "bmFiddler",
-      "libraryId": "13EWG4-lPrEf34itxQhAQ7b9JEbmCBfO8uE4Mhr99CHi3Pw65oxXtq-rU",
-      "version": "20"
-    }, {
-      "userSymbol": "bmLibraryReporter",
-      "libraryId": "1D_lWK-jU53wxMA2-NxSjiyu7Uze_GDDqBKTsQnCgPhyUmmSLv0bfTNPX",
-      "version": "8"
-    }]
-  },
   "exceptionLogging": "STACKDRIVER",
-  "runtimeVersion": "V8"
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "bmFiddler",
+        "libraryId": "13EWG4-lPrEf34itxQhAQ7b9JEbmCBfO8uE4Mhr99CHi3Pw65oxXtq-rU",
+        "version": "25"
+      },
+      {
+        "userSymbol": "bmLibraryReporter",
+        "libraryId": "1D_lWK-jU53wxMA2-NxSjiyu7Uze_GDDqBKTsQnCgPhyUmmSLv0bfTNPX",
+        "version": "14"
+      }
+    ]
+  }
 }
