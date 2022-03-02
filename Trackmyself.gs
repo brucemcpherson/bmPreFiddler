@@ -3,6 +3,7 @@ var Trackmyself = ((trackingOptions) => {
   const track  = bmLibraryReporter.Trackmyself
   
   // so we can get reports 
+
   return {
     exportUsage: (options = {}) => track.exportUsage({...trackingOptions,...options}),
     currentUserUsage: (options = {}) => track.currentUserUsage({...trackingOptions,...options}),
@@ -11,7 +12,7 @@ var Trackmyself = ((trackingOptions) => {
   
 })({
   name: 'bmPreFiddler',
-  version: '31',
+  version: '32',
   failSilently: true,
   singleStamp: true
 })
