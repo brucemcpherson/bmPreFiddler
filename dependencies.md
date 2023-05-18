@@ -1,5 +1,5 @@
 # Google Apps Script Project: bmPreFiddler
-This repo (bmPreFiddler) was automatically updated on 5/15/2023, 10:40:00?AM by GasGit
+This repo (bmPreFiddler) was automatically updated on 5/18/2023, 10:35:58?AM by GasGit
 
 For more information on gasgit, see the [desktop liberation site](https://ramblings.mcpher.com/drive-sdk-and-github/migrategasgit/ "desktop liberation")
 
@@ -18,6 +18,7 @@ The shared link for [bmPreFiddler is here](https://script.google.com/d/13JUFGY18
 appsscript| json
 Code| server_js
 Trackmyself| server_js
+Exports| server_js
 ### Directly referenced libraries
 *library*|*identifier*|*key*|*version*|*dev mode*|*source*|
 --- | --- | --- | --- | --- | --- 
