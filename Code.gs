@@ -4,8 +4,6 @@
  */
 function PreFiddler() {
 
-  // track library usage
-  Trackmyself.stamp()
   
   const getss = ({ id }) => {
     return id ? SpreadsheetApp.openById(id) : SpreadsheetApp.getActiveSpreadsheet()
